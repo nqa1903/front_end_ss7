@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    height: fit-content;
+}
+
+.container img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.container .container-header{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.container .container-header i{
+    background-color: #ff6116;
+    padding : 12px;
+    border-radius: 50%;
+    color: white;
+}

@@ -1,0 +1,47 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    color: rgba(0, 0, 102, 0.714);
+}
+
+.container{
+    background-color: whitesmoke;
+    width: fit-content;
+    padding : 16px;
+}
+
+.container h1{
+    margin-bottom: 16px;
+}
+
+.container ul{
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.container ul li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.container .submit{
+    display: flex;
+    gap : 20px;
+}
+
+.container .submit button{
+    padding : 12px 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(128, 128, 128, 0.826);
+    cursor: pointer;
+    
+}
+
+.container .submit .submit-left{
+    background-color: red;
+    color: white;
+}

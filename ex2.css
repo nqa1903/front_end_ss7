@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.2;
+}
+
+.container{
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.component{
+    width: 360px;
+    padding : 16px;
+    text-align: center;
+    border: 2px solid rgb(190, 188, 188);
+    border-radius: 8px;
+    margin: 12px;
+}
+
+.component h1{
+    color: red;
+    margin-bottom: 12px;
+}
+
+.component p{
+    font-size: large;
+    font-weight: 550;
+    color: rgba(0, 0, 102, 0.714);
+}
+
